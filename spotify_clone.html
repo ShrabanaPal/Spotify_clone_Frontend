@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>        <!-- ctrl + F to search in html  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilityclass.css">
+</head>
+<body>
+    <div class="container flex">
+    <div class="left">
+        <div class="close">
+            <img class="invert" src="close.svg" alt="">
+        </div>
+    <div class="home bg-color radius m1 p1">
+        <div class="logo">
+            <img  class="invert" width="140" src="logo.svg" alt=""> 
+        </div>
+        <ul>
+            <li><img  class="invert" src="home.svg" alt="home"> Home </li>
+            <li><img  class="invert" src="search.svg" alt="serach"> Search </li>
+        </ul>
+    </div>
+    <div class="library bg-color radius m1 p1">
+        <div class="heading">
+            <img class="invert" src="playlist.svg">
+        <h3>Your Library </h3>
+        </div>
+        <div class="songlist">
+            <ul>
+            </ul>
+        </div>
+        <!-- <div class="box2">
+        <div class="box">
+            <pre>
+            <h3>Create your first playlist</h3>
+            <h3>It's easy, we'll help you</h3>
+            <button>Create Playlists</button>
+            </pre>
+        </div>
+        <div class="box1">
+            <pre>
+                <h3>Let's find some podcasts to follow</h3>
+                <h3>We'll keep you updated 
+                on new episodes</h3>
+                <button>Browse Podcasts </button>
+            </pre>
+        </div>
+        </div> -->
+        <div class="foot">
+            <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy Center</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+            <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+            <div class="language">
+                <pre>
+                    <select>
+                    <option value="English"> English
+                </option>
+                <option value="Hindi">
+                    Hindi
+                    </option>
+                    <option value="Bengali">
+                        Bengali
+                        </option>
+                        <option value="Korean">
+                            Korean
+                            </option>
+                            <option value="Bhojpuri">
+                                Bhojpuri
+                                </option>
+                                <option value="Japanese">
+                                    Japanese
+                                    </option>
+                                    <option value="Tamil">
+                                        Tamil
+                                        </option>
+                                        <option value="Telegu">
+                                            Telegu
+                                            </option>
+                                            <option value="Punjabi">
+                                                Punjabi
+                                                </option>
+                                                <option value="Marathi">
+                                                    Marathi
+                                                    </option>
+                        </select>
+                </pre>
+            </div>
+    </div>
+    </div>
+    </div>
+    <div class="right  bg-color radius">
+    <div class="header">
+        <div class="nav">
+            <div class="hamburgericons">
+                <img  class="invert" src="hamburger.svg" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M17 4L8.66943 10.0405C6.44352 11.6545 6.44353 12.3455 8.66943 13.9595L17 20" stroke="#ffffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M7 4L15.3306 10.0405C17.5565 11.6545 17.5565 12.3455 15.3306 13.9595L7 20" stroke="#ffffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            </div>
+        </div>
+        <div class="btn">
+            <button>Sign up</button>
+            <button>Log in</button>
+        </div>
+        </div>
+        <div class="spotify ">
+            <h2>Spotify Playlists</h2>
+            <div class="cardcontainer">
+            <div data-folder="cs" class="card">
+                <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="green" fill="black">
+                          <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0">
+                <h3>Unlimited Love Songs - Arijit Singh </h3>
+                <p>2020 : Album </p>
+            </div>
+            <div data-folder="ncs" class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="green" fill="black">
+                      <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+            </div>
+                <img src="https://i.scdn.co/image/ab67706f0000000263ad8e506c705fca8010f441">
+                <h3>Bollywood Mush</h3>
+                <p>Let these songs be the background score to your love story. Cover - Teri Baaton Mein Aisa Uljha Jiya</p>
+            </div>
+            <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="green" fill="black">
+                      <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+            </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9">
+                <h3>Animal</h3>
+                <p>Manan Bhardwaj Vishal Mishra Jaani</p>
+            </div>
+            <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="green" fill="black">
+                      <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+            </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3">
+                <h3>Aashiqui2</h3>
+                <p>Mithun Ankit Tiwari Jeet Gannguli</p>
+            </div>
+            <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="green" fill="black">
+                      <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+            </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e02505190077497c230422f2934">
+                <h3>Map Of The Soul : 7 </h3>
+                <pre>
+                    &nbsp;
+                <p>2020 : BTS </p>
+                </pre>
+            </div>
+            <div class="card">
+                <div class="play">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="green" fill="black">
+                      <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="green" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+            </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e02c183e74ac039467493996aee">
+                <h3>Hope No Hope BTS</h3>
+                <pre>
+                    &nbsp;
+                <p>2024 : BenB JHope</p>
+                </pre>
+            </div>
+            </div>
+        </div>
+        <div class="playbar">
+            <div class="seekbar">
+                <div class="circle">
+                    
+                </div>
+            </div>
+            <div class="bar">
+            <div class="songinfo">
+
+            </div>
+            <div class="songsbtn">
+                <img id ="previous" src="previous_songs.svg" alt="">
+                <img id ="play" src="play.svg" alt="">
+                <img id ="next" src="next_songs.svg" alt="">
+            </div>
+            <div class="sound">
+            <div class="songtime">
+
+            </div>
+                <div class="volumn invert">
+                    <img src="volumn.svg" alt="">
+                </div>
+                <div class="range">
+                    <input type="range" name="volume" id="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
